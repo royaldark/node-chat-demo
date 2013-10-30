@@ -25,7 +25,7 @@ Directory Structure
 * node_modules/ - Third-party server-side libraries
 * server/ - My own server-side code
 * shared/ - My own code shared between client and server. Mostly just utilities
-* templates / - HTML templates used client-side. Probably could be moved into client/
+* templates/ - HTML templates used client-side. Probably could be moved into client/
 
 
 What Libraries Are Used?
