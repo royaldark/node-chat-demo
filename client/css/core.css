@@ -1,0 +1,31 @@
+.title {
+	text-align: center;
+}
+
+#messageArea {
+	.message {
+		border: 1px solid black;
+		margin-bottom: 15px;
+
+		&:last-child {
+			margin-bottom: 0px;
+		}
+
+		&:nth-child(even) {
+			background-color: #E0E0E0;
+		}
+
+		.message-name, .message-time {
+			font-weight: bold;
+		}
+	}
+}
+
+#composerArea {
+	margin-bottom: 25px;
+
+	label {
+		float: left;
+		width: 100px;
+	}
+}
