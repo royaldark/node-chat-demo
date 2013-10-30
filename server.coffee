@@ -55,7 +55,7 @@ startServer = ->
         res.sendfile path
 
       app.get '/css/*', (req, res) ->
-        path = "client/#{ req.url[1..] }"
+        path = "client/#{ req.url[0...-4]  }.less"
 
         await fs.readFile path, 'utf-8', defer err, data
         await Util.compileCSS data, defer err, css
