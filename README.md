@@ -34,16 +34,16 @@ What Libraries Are Used?
 Here's a list of the libraries and modules included.
 
 ### Server Only
-* [express](http://expressjs.com/)
-* [async](https://github.com/caolan/async)
-* [Less CSS](http://lesscss.org/)
+* [express](http://expressjs.com/) - Web server framework
+* [async](https://github.com/caolan/async) - Asynchronous control flow
+* [Less CSS](http://lesscss.org/) - Dynamic stylesheets
 
 ### Client Only
-* [jQuery](http://jquery.com)
-* [Backbone](http://backbonejs.org)
+* [jQuery](http://jquery.com) - DOM manipulation, utilities
+* [Backbone](http://backbonejs.org) - MVC, client-server sync, HTML5 pushState routing
 
 ### Shared
-* [IcedCoffeeScript](http://maxtaco.github.io/coffee-script)
-* [UnderscoreJS](http://underscorejs.org/)
-* [swig](http://paularmstrong.github.io/swig)
-* [Socket.IO](http://socket.io/)
+* [IcedCoffeeScript](http://maxtaco.github.io/coffee-script) - CoffeeScript with built-in async control flow constructs
+* [UnderscoreJS](http://underscorejs.org/) - Utilities
+* [swig](http://paularmstrong.github.io/swig) - Templating engine
+* [Socket.IO](http://socket.io/) - WebSockets library with graceful degradation
