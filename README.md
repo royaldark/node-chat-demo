@@ -3,7 +3,7 @@ Node Chat Demo
 
 A hastily-assembled demo of a chat application built using Node, CoffeeScript and Backbone.
 
-I used this demo to conclude my Bits & Bytes talk at the University of Minnesota Morris on October 30, 2013.
+I used this demo to conclude [my Bits & Bytes talk](http://www.slideshare.net/royaldark/presentation-28147455) at the University of Minnesota Morris on October 30, 2013.
 
 Keep in mind that although I aimed for relatively clean code, this application *was* thrown together the day before the talk. As such, the code undoubtedly contains bugs, unhandled errors, and bad design decisions.
 
